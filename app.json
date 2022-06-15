@@ -51,6 +51,31 @@
             "description": "Botun kullanıcı adını @ bu işarə olmadan yazın.",
             "value": "",
             "required": true
+        },
+        "DATABASE_URL": {
+          "description": "mongo db url",
+          "value": "",
+          "required": true
+        },
+        "LOG_CHANNEL": {
+          "description": "log kanal id",
+          "value": "",
+          "required": true
+        },
+        "GROUP_SUPPORT": {
+          "description": "support group",
+          "value": "",
+          "required": true
+        },
+        "LANGUAGE": {
+          "description": "dil tercihi dil kodu",
+          "value": "",
+          "required": false
+        },
+        "GONDERME_TURU": {
+          "description": " brodcast gonderme Mevcut False olaraq koyuldu",
+          "value": "False",
+          "required": true
         }
     },
     "buildpacks": [
