@@ -5,3 +5,6 @@ youtube_search
 requests
 yt_dlp
 ffmpeg
+pymongo[srv]
+aiofiles
+psutil
