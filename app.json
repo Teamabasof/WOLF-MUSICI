@@ -76,6 +76,11 @@
           "description": " brodcast gonderme Mevcut False olaraq koyuldu",
           "value": "False",
           "required": true
+        },
+        "OWNER_ID": {
+          "description": "Botun sahibinin id'si",
+          "value": "",
+          "required": true
         }
     },
     "buildpacks": [
